@@ -1,0 +1,2 @@
+untracked -> status file yang baru pertama kali dimasukkan kedalam repositori
+added -> repositori sudah mengenal file dan sudah bisa mengelola file tersebut
