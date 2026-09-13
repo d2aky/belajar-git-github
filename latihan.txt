@@ -1,2 +1,17 @@
 untracked -> status file yang baru pertama kali dimasukkan kedalam repositori
+    git(repositori) tahu ada file baru, tapi belum tahu apakah kita ingin 
+    memasukkan file tersebut ke dalam sistem version control-nya atau tidak
 added -> repositori sudah mengenal file dan sudah bisa mengelola file tersebut
+    intinya git sudah menandai file ini untuk dicatat perubahannya
+stagging area -> tempat file yang sudah dikumpul dan dibungkus dalam satu paket
+    (commit) dan disimpan 
+git reset -> mengubah status file dalam area stagging (yang sudah di-Add) agar
+    kembali unstaged (atau untracked)
+    perintah ini tidak menyentuh riwayat commit
+git reset HEAD~n -> Perintah ini melibatkan angka komit (HEAD~1, HEAD~2, dst.), 
+    yang artinya perintah ini bertujuan untuk memindahkan posisi HEAD dan menghapus 
+    riwayat komit ke belakang sebanyak $n$ langkah.
+
+git remote -> memasukkan alamat tujuan file yang akan dikirim nanti,
+    memberitahu file yang kita simpan ini akan dikirim kemana
+
