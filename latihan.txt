@@ -15,3 +15,7 @@ git reset HEAD~n -> Perintah ini melibatkan angka komit (HEAD~1, HEAD~2, dst.),
 git remote -> memasukkan alamat tujuan file yang akan dikirim nanti,
     memberitahu file yang kita simpan ini akan dikirim kemana
 
+intinya git remote itu menghubungkan git lokal kita ke git dari tempat lain, bisa
+    github ataupun tempat lain yang ada repositori nya, jadi jika sudah terhubung
+    kita bisa menyimpan perubahan kesana ataupun menyalin perubahan dari sebanyak
+
