@@ -19,3 +19,5 @@ intinya git remote itu menghubungkan git lokal kita ke git dari tempat lain, bis
     github ataupun tempat lain yang ada repositori nya, jadi jika sudah terhubung
     kita bisa menyimpan perubahan kesana ataupun menyalin perubahan dari sebanyak
 
+git push <nama-remote> <nama-branch> -> untuk menambahkan perubahan dari git lokal ke alamat remote
+git pull <nama-remote> <nama-branch> -> untuk menyamakan file lokal kita dengan yg di alamat remote
