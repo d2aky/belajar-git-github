@@ -1,16 +1,63 @@
+
+===================================== pertemuan pertama  11 September 2026 =====================================
+
+
+version control -> pelacakan dan pengelolaan 
+pelacakan -> kita mengetahui setiap perubahan yang terjadi
+pengelolaan -> gimana caranya agar kita bisa gunakan Kembali
+
+intinya : bagaimana kita mengelola setiap perubahan yang terjadi
+
+version control system -> suatu software yang menjadi alat yang bisa melakukan mengatur perubahan sehingga 
+    kita bisa melakukan pelacakan dan pengelolaan
+
+version control system 
+vcs local -> disimpan dalam local laptop aja
+- bergantung pada device lokal
+vcs terpusat -> disimpan di server, bisa di akses oleh beberapa device, setiap perubahan dari device disimpan di server
+- bergantung ke server
+vcs terdistribusi -> setiap device yang terhubung memiliki Salinan full repository nya, 
+- jika terjadi kerusakan pada satu client ataupun server bisa saling memulihkan datanya karena semua punya backup 
+
+git -> vcs terdistribusi
+
+brance -> main sebagai cabang utamanya, kita bisa buat cabang baru dari main ini, misal tester.
+- jika dilakukan perubahan pada tester tidak akan langsung mengubah di main, ini cocok untuk melakukan pengembangan.
+- sehingga jika terjadi kesalahan dalam melakukan pengembangan, tidak langsung mempengaruhi main
+
+merging  -> menggabungkan cabang satu ke yang lain
+
+repository -> folder yang menampung file file beserta Riwayat perubahannya
+
+untracked -> yang diubah jadi repository nya baru foldernya saja, sedangkan filenya belum, jadi foldernya ada pelacak file di dalamnya, jika ada file baru ditambahkan, dia belum mengenal file tersebut, namun tahu ada file baru didalamnya
+
+stagged -> setelah di git add <nama file>, maka file tersebut akan siap untuk di commit, tapi belum di commit
+
+unmodified -> setelah di commit maka akan masuk menjadi unmodified
+
+modified -> jika file diedit setelah sebelumnya statusnya unmodified
+
+
+===================================== pertemuan kedua 13 September 2026 =====================================
+
+
 untracked -> status file yang baru pertama kali dimasukkan kedalam repositori
     git(repositori) tahu ada file baru, tapi belum tahu apakah kita ingin 
     memasukkan file tersebut ke dalam sistem version control-nya atau tidak
+    
 added -> repositori sudah mengenal file dan sudah bisa mengelola file tersebut
     intinya git sudah menandai file ini untuk dicatat perubahannya
+
 stagging area -> tempat file yang sudah dikumpul dan dibungkus dalam satu paket
     (commit) dan disimpan 
+    
 git reset -> mengubah status file dalam area stagging (yang sudah di-Add) agar
     kembali unstaged (atau untracked)
-    perintah ini tidak menyentuh riwayat commit
+    -- perintah ini tidak menyentuh riwayat commit
+
 git reset HEAD~n -> Perintah ini melibatkan angka komit (HEAD~1, HEAD~2, dst.), 
     yang artinya perintah ini bertujuan untuk memindahkan posisi HEAD dan menghapus 
-    riwayat komit ke belakang sebanyak $n$ langkah.
+    riwayat komit ke belakang sebanyak n langkah.
 
 git remote -> memasukkan alamat tujuan file yang akan dikirim nanti,
     memberitahu file yang kita simpan ini akan dikirim kemana
@@ -30,3 +77,13 @@ git diff <nama-remote>/<<nama-branch> -> untuk melihat perbedaan dari branch rem
 git merge <nama-remote>/<nama-branch> -> menggabungkan branch remote dalam lokal dengan git lokal   
 
 git push itu bisa dibilang git fetch sekaligus git merge
+
+markdown -> bahasa markup yang lebih ringan dan sederhana. Markdown diciptakan untuk 
+memudahkan siapa saja menulis teks berformat menggunakan simbol bacaan biasa tanpa harus mengetik 
+tag HTML yang panjang.
+
+beda dengan markup -> sistem untuk mengatur format dan struktur dokumen menggunakan tag (tanda khusus) 
+yang biasanya diapit oleh kurung siku, seperti <p> atau <div>.
+
+intinya -> Markdown sebenarnya adalah "turunan" atau cara praktis yang dibuat dari bahasa Markup (HTML) 
+agar manusia tidak perlu repot mengetik tag yang panjang saat menulis teks sehari-hari.
