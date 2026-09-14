@@ -21,3 +21,12 @@ intinya git remote itu menghubungkan git lokal kita ke git dari tempat lain, bis
 
 git push <nama-remote> <nama-branch> -> untuk menambahkan perubahan dari git lokal ke alamat remote
 git pull <nama-remote> <nama-branch> -> untuk menyamakan file lokal kita dengan yg di alamat remote
+    terjadi proses download dan merge dalam git lokal kita
+
+git fetch <nama-remote> <nama-branch> -> untuk mendowload perubahan saja, belum merge (digabungkan)
+git diff <nama-remote>/<<nama-branch> -> untuk melihat perbedaan dari branch remote dalam lokal 
+    (hasil download fetch) dg lokal kita
+
+git merge <nama-remote>/<nama-branch> -> menggabungkan branch remote dalam lokal dengan git lokal   
+
+git push itu bisa dibilang git fetch sekaligus git merge
