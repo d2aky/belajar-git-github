@@ -1,6 +1,7 @@
 
 ===================================== pertemuan pertama  11 September 2026 =====================================
 
+GIT merupakan salah satu perintah system
 
 version control -> pelacakan dan pengelolaan 
 pelacakan -> kita mengetahui setiap perubahan yang terjadi
