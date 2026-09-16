@@ -1,5 +1,5 @@
 
-===================================== pertemuan pertama  11 September 2026 =====================================
+===================================== pertemuan pertama  11 September 2026 =======================================
 vcs (version control system) -> system yang menyimpan rekaman / snapshoot perubahan pada source code
 manfaat :
 - kita bisa melacak versi / perubahan pada dokumen
