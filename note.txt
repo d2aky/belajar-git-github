@@ -1,7 +1,12 @@
 
 ===================================== pertemuan pertama  11 September 2026 =====================================
+vcs (version control system) -> system yang menyimpan rekaman / snapshoot perubahan pada source code
+manfaat :
+- kita bisa melacak versi / perubahan pada dokumen
+- untuk kolaborasi -> karena dengan vcs kita bisa tau kapan,siapa, mengubah apa	
+- memungkinkan kita Kembali ke keadaan sebelum perubahan (checkout)
 
-GIT merupakan salah satu perintah system
+git -> salah satu version control system -> yang merupakan software yang kita install dalam computer kita agar kita bisa mengelola perubahan file di dalam folder (repository / repo)
 
 version control -> pelacakan dan pengelolaan 
 pelacakan -> kita mengetahui setiap perubahan yang terjadi
